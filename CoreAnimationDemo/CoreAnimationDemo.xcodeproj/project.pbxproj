@@ -18,9 +18,11 @@
 		2BB0B7CA25D2386F006CDAE2 /* CoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B7C925D2386F006CDAE2 /* CoreAnimationDemoTests.m */; };
 		2BB0B7D525D2386F006CDAE2 /* CoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B7D425D2386F006CDAE2 /* CoreAnimationDemoUITests.m */; };
 		2BB0B7E825D239E5006CDAE2 /* UIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B7E725D239E5006CDAE2 /* UIViewAnimationVC.m */; };
-		2BB0B93625D28B1C006CDAE2 /* TransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B93525D28B1C006CDAE2 /* TransitionVC.m */; };
+		2BB0B93625D28B1C006CDAE2 /* TransitionAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B93525D28B1C006CDAE2 /* TransitionAnimationVC.m */; };
 		2BB0B93C25D28B34006CDAE2 /* TransformAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B93B25D28B34006CDAE2 /* TransformAnimationVC.m */; };
 		2BB0B94225D28B5A006CDAE2 /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B94125D28B5A006CDAE2 /* CoreAnimationVC.m */; };
+		2BB0B94B25D292F2006CDAE2 /* KeyFrameAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B94A25D292F2006CDAE2 /* KeyFrameAnimationVC.m */; };
+		2BB0B95125D2B496006CDAE2 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0B95025D2B496006CDAE2 /* BaseVC.m */; };
 		8A825F84FEF96E862FEE5B1B /* Pods_CoreAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76573ADAA5EA41041BE78247 /* Pods_CoreAnimationDemo.framework */; };
 		FDFEC639B7E0499BD4E4A36B /* Pods_CoreAnimationDemo_CoreAnimationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC82654715A66D241D96A6F3 /* Pods_CoreAnimationDemo_CoreAnimationDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,12 +65,16 @@
 		2BB0B7D625D2386F006CDAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BB0B7E625D239E5006CDAE2 /* UIViewAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationVC.h; sourceTree = "<group>"; };
 		2BB0B7E725D239E5006CDAE2 /* UIViewAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationVC.m; sourceTree = "<group>"; };
-		2BB0B93425D28B1C006CDAE2 /* TransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionVC.h; sourceTree = "<group>"; };
-		2BB0B93525D28B1C006CDAE2 /* TransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionVC.m; sourceTree = "<group>"; };
+		2BB0B93425D28B1C006CDAE2 /* TransitionAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationVC.h; sourceTree = "<group>"; };
+		2BB0B93525D28B1C006CDAE2 /* TransitionAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationVC.m; sourceTree = "<group>"; };
 		2BB0B93A25D28B34006CDAE2 /* TransformAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformAnimationVC.h; sourceTree = "<group>"; };
 		2BB0B93B25D28B34006CDAE2 /* TransformAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationVC.m; sourceTree = "<group>"; };
 		2BB0B94025D28B5A006CDAE2 /* CoreAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
 		2BB0B94125D28B5A006CDAE2 /* CoreAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
+		2BB0B94925D292F2006CDAE2 /* KeyFrameAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationVC.h; sourceTree = "<group>"; };
+		2BB0B94A25D292F2006CDAE2 /* KeyFrameAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationVC.m; sourceTree = "<group>"; };
+		2BB0B94F25D2B496006CDAE2 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		2BB0B95025D2B496006CDAE2 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
 		6BF63BB413BD3E513C751CE3 /* Pods-CoreAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimationDemo/Pods-CoreAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		76573ADAA5EA41041BE78247 /* Pods_CoreAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B14FD27058EB90995A4B5E3 /* Pods-CoreAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-CoreAnimationDemo/Pods-CoreAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,12 +178,16 @@
 			children = (
 				2BB0B7E625D239E5006CDAE2 /* UIViewAnimationVC.h */,
 				2BB0B7E725D239E5006CDAE2 /* UIViewAnimationVC.m */,
-				2BB0B93425D28B1C006CDAE2 /* TransitionVC.h */,
-				2BB0B93525D28B1C006CDAE2 /* TransitionVC.m */,
+				2BB0B93425D28B1C006CDAE2 /* TransitionAnimationVC.h */,
+				2BB0B93525D28B1C006CDAE2 /* TransitionAnimationVC.m */,
 				2BB0B93A25D28B34006CDAE2 /* TransformAnimationVC.h */,
 				2BB0B93B25D28B34006CDAE2 /* TransformAnimationVC.m */,
 				2BB0B94025D28B5A006CDAE2 /* CoreAnimationVC.h */,
 				2BB0B94125D28B5A006CDAE2 /* CoreAnimationVC.m */,
+				2BB0B94925D292F2006CDAE2 /* KeyFrameAnimationVC.h */,
+				2BB0B94A25D292F2006CDAE2 /* KeyFrameAnimationVC.m */,
+				2BB0B94F25D2B496006CDAE2 /* BaseVC.h */,
+				2BB0B95025D2B496006CDAE2 /* BaseVC.m */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -443,13 +453,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BB0B7B525D2386E006CDAE2 /* ViewController.m in Sources */,
-				2BB0B93625D28B1C006CDAE2 /* TransitionVC.m in Sources */,
+				2BB0B93625D28B1C006CDAE2 /* TransitionAnimationVC.m in Sources */,
 				2BB0B7AF25D2386E006CDAE2 /* AppDelegate.m in Sources */,
+				2BB0B95125D2B496006CDAE2 /* BaseVC.m in Sources */,
 				2BB0B93C25D28B34006CDAE2 /* TransformAnimationVC.m in Sources */,
 				2BB0B7E825D239E5006CDAE2 /* UIViewAnimationVC.m in Sources */,
 				2BB0B7C025D2386F006CDAE2 /* main.m in Sources */,
 				2BB0B94225D28B5A006CDAE2 /* CoreAnimationVC.m in Sources */,
 				2BB0B7B225D2386E006CDAE2 /* SceneDelegate.m in Sources */,
+				2BB0B94B25D292F2006CDAE2 /* KeyFrameAnimationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

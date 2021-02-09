@@ -112,16 +112,6 @@
 
 #pragma mark - Action
 
-- (void)onDampChanged:(UISlider *)slider
-{
-
-}
-
-- (void)onVelocityChanged:(UISlider *)slider
-{
-    
-}
-
 - (void)resetAction
 {
     self.label.center = self.centerPoint;
@@ -131,11 +121,10 @@
 {
     [UIView animateWithDuration:0.25f
                      animations:^{
-        self.label.center = CGPointMake(self.centerPoint.x, self.centerPoint.y + 300);
+            self.label.center = CGPointMake(self.centerPoint.x, self.centerPoint.y + 300);
         }
                      completion:^(BOOL finished) {
-        self.label.center = self.centerPoint;
-
+            self.label.center = self.centerPoint;
         }];
 }
 
@@ -160,8 +149,8 @@
                 make.width.equalTo(@200);
                 make.height.equalTo(@40);
             }];
-        [self.view setNeedsLayout];
-        [self.view layoutIfNeeded];
+            [self.view setNeedsLayout];
+            [self.view layoutIfNeeded];
         }] ;
 }
 
@@ -173,9 +162,19 @@
            initialSpringVelocity:self.velocitySlider.value
                          options:UIViewAnimationOptionCurveLinear
                       animations:^{
-        self.label.center = CGPointMake(self.centerPoint.x, self.centerPoint.y + 300);
+            self.label.center = CGPointMake(self.centerPoint.x, self.centerPoint.y + 300);
         } completion:^(BOOL finished) {
-        }];
+    }];
+}
+
+- (void)onDampChanged:(UISlider *)slider
+{
+
+}
+
+- (void)onVelocityChanged:(UISlider *)slider
+{
+    
 }
 
 @end

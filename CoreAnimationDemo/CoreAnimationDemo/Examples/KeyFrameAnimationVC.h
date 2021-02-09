@@ -1,5 +1,5 @@
 //
-//  TransitionVC.h
+//  KeyFrameAnimationVC.h
 //  CoreAnimationDemo
 //
 //  Created by fanghe on 2021/2/9.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TransitionVC : UIViewController
+@interface KeyFrameAnimationVC : UIViewController
 
 @end
 

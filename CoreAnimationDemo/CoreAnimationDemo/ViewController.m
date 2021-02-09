@@ -39,6 +39,13 @@ static NSString * const kReuseID = @"kReuseID";
         model.clz = NSClassFromString(@"UIViewAnimationVC");
         [self.items addObject:model];
     }
+    
+    {
+        Model *model = [[Model alloc] init];
+        model.title = @"UIView 转场动画";
+        model.clz = NSClassFromString(@"TransitionAnimationVC");
+        [self.items addObject:model];
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
