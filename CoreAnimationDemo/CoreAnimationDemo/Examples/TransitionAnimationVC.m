@@ -33,8 +33,9 @@
     self.label2.center = self.view.center;
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.button0 setTitle:@"转场动画效果1" forState:UIControlStateNormal];
-    [self.button1 setTitle:@"转场动画效果2" forState:UIControlStateNormal];
+    [self.button0 setTitle:@"系统转场1" forState:UIControlStateNormal];
+    [self.button1 setTitle:@"系统转场2" forState:UIControlStateNormal];
+    [self.button2 setTitle:@"自定义转场" forState:UIControlStateNormal];
 
 }
 
@@ -59,6 +60,11 @@
                     completion:^(BOOL finished) {
         
     }];
+}
+
+- (void)onButton2Action:(id)sender
+{
+   
 }
 
 

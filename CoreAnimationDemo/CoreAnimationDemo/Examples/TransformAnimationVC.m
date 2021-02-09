@@ -18,14 +18,31 @@
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - Action
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)onButton0Action:(id)sender
+{
+    
 }
-*/
+
+- (void)onButton1Action:(id)sender
+{
+    
+}
+
+- (void)onButton2Action:(id)sender
+{
+    
+}
+
+- (void)onButton3Action:(id)sender
+{
+    
+}
+
+- (void)onButton4Action:(id)sender
+{
+    
+}
 
 @end
