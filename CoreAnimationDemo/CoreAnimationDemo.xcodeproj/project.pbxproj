@@ -176,18 +176,18 @@
 		2BB0B7E525D239E5006CDAE2 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				2BB0B94F25D2B496006CDAE2 /* BaseVC.h */,
+				2BB0B95025D2B496006CDAE2 /* BaseVC.m */,
 				2BB0B7E625D239E5006CDAE2 /* UIViewAnimationVC.h */,
 				2BB0B7E725D239E5006CDAE2 /* UIViewAnimationVC.m */,
 				2BB0B93425D28B1C006CDAE2 /* TransitionAnimationVC.h */,
 				2BB0B93525D28B1C006CDAE2 /* TransitionAnimationVC.m */,
 				2BB0B93A25D28B34006CDAE2 /* TransformAnimationVC.h */,
 				2BB0B93B25D28B34006CDAE2 /* TransformAnimationVC.m */,
-				2BB0B94025D28B5A006CDAE2 /* CoreAnimationVC.h */,
-				2BB0B94125D28B5A006CDAE2 /* CoreAnimationVC.m */,
 				2BB0B94925D292F2006CDAE2 /* KeyFrameAnimationVC.h */,
 				2BB0B94A25D292F2006CDAE2 /* KeyFrameAnimationVC.m */,
-				2BB0B94F25D2B496006CDAE2 /* BaseVC.h */,
-				2BB0B95025D2B496006CDAE2 /* BaseVC.m */,
+				2BB0B94025D28B5A006CDAE2 /* CoreAnimationVC.h */,
+				2BB0B94125D28B5A006CDAE2 /* CoreAnimationVC.m */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
